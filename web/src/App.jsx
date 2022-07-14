@@ -10,9 +10,10 @@ import RestaurantMenuPage from './pages/RestaurantMenuPage';
 import ProfilePage from './pages/ProfilePage';
 import GroupOrderPage from './pages/GroupOrderPage';
 import AccountsPage from './pages/AccountPage';
+import AboutPage from './pages/AboutPage';
 import OrdersPage from './pages/OrdersPage';
-
 import './App.css';
+
 
 const App = () => {
   return (
@@ -28,6 +29,7 @@ const App = () => {
           <Route exact path="/menu" element={<RestaurantMenuPage />} />
           <Route path="/profile/:id" element={<ProfilePage />} />
           <Route path="/group/:id" element={<GroupOrderPage />} />
+          <Route exact path="/help" element={<AboutPage />} />
         </Routes>
       </BrowserRouter>
     </ChakraProvider>

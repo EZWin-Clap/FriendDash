@@ -1,10 +1,10 @@
-import NavBar from '../components/NavBar';
+import Header from '../components/Header/Header';
 
 // Main Directory for Orders
 const Home = () => {
   return (
     <div>
-      <NavBar />
+      <Header />
       Hello World
       <b> ok</b>
     </div>
